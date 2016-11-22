@@ -1,5 +1,6 @@
 npm-debug.log
 .DS_Store
+.vscode/
 
 app/**/*.js
 hooks/
@@ -8,3 +9,4 @@ node_modules/
 platforms/
 tmp/
 typings/
+docs/

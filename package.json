@@ -25,7 +25,9 @@
     }
   },
   "scripts": {
-    "tslint": "tslint \"app/**/*.ts\""
+    "tslint": "tslint \"app/**/*.ts\"",
+    "docs": "node_modules/.bin/compodoc -p tsconfig.json -d docs",
+    "serve-docs": "node_modules/.bin/compodoc -s -d docs"
   },
   "dependencies": {
     "@angular/common": "~2.1.2",
@@ -46,11 +48,11 @@
     "tns-core-modules": "^2.3.0"
   },
   "devDependencies": {
-    "zone.js": "~0.6.21",
     "babel-traverse": "6.8.0",
     "babel-types": "6.8.1",
     "babylon": "6.8.0",
     "codelyzer": "0.0.28",
+    "compodoc": "0.0.15",
     "filewalker": "0.1.2",
     "jasmine-core": "^2.4.1",
     "karma": "^1.2.0",
@@ -59,6 +61,7 @@
     "lazy": "1.0.11",
     "nativescript-dev-typescript": "^0.3.2",
     "tslint": "^3.14.0",
-    "typescript": "^2.0.3"
+    "typescript": "^2.0.3",
+    "zone.js": "~0.6.21"
   }
 }
