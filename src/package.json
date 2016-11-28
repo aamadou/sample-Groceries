@@ -26,8 +26,8 @@
   },
   "scripts": {
     "tslint": "tslint \"app/**/*.ts\"",
-    "docs": "node_modules/.bin/compodoc -p tsconfig.json -d docs",
-    "serve-docs": "node_modules/.bin/compodoc -s -d docs"
+    "docs": "node_modules/.bin/compodoc -p tsconfig.json -d ../docs/",
+    "serve-docs": "node_modules/.bin/compodoc -s -d ../docs/"
   },
   "dependencies": {
     "@angular/common": "~2.1.2",
